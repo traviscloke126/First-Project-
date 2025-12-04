@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
+
 <body>
     <section>
         <nav>
@@ -18,9 +20,11 @@
         </nav>
         <header>
             <div class="row">
+                <div>
                     <h1>Welcome to My Website</h1>
-                    <p class="subheader">This is my first time making a Website!</p>
+                    <p class="subheader">This is Travis first time making a Website!</p>
                      <button>Get Started</button>
+                </div>
             </div>  
             <figure>
                 <img src="./First Project HTML/Assets/laptop.png" alt="Home page image">
@@ -29,8 +33,9 @@
     </section>
 
     <Main>
-        <section id="about"></section>
-        <h2> About </h2>
+        <section id="About">
+          <h2>About</h2>
+          <div class="row">
             <div class="section_description">
                <div class="section_description--wrapper">
                   <p class="section_description--para">Hello! My name is Travis Cloke, and I am excited to share my first website with you. I have a passion for web development and look forward to learning more in this field.</p>
@@ -41,31 +46,42 @@
                 <img src="./first Project HTML/Assets/about.jpg" alt="About me image">
               </figure>
             </div>
+          </div>
         </section>
          
-         <section id="Discord"></section>
-            <h2>Join My Discord</h2>
-            <img src="./First Project HTML/Assets/discord.png" alt="Discord image">
-            <div>
-                <p>If you want to connect with me and talk more. Please contact me.</p>
+        <section id="Discord">
+           <h2>Join My Discord</h2>
+           <div class="row">
+           <div class="section_description">
+            <figure class="about_img--wrapper">
+                  <img src="./First Project HTML/Assets/discord.png" alt="Discord">
+            </figure>
+              <div class="section_description--wrapper">
+                <p class="section_description--para">If you want to connect with me and talk more. Please contact me.</p>
+                <p class="section_description--para">Discord is a great platform for communication and collaboration, and I would love to have you join my server. Whether you're interested in web development, gaming, or just want to chat, there's something for everyone.</p>
+              </div>
             </div>
+        </section>    
+        
+        
         <section id="Contact">
             <h2 >Contact</h2>
             <form action="">
                 <span>Email</span>   
-                <input type="text" placeholder="JohnDoe@example.com">
+                <input type="email" placeholder="JohnDoe@example.com">
                 <span>Message</span>   
-                <textarea type="text" placeholder="JohnDoe@example.com"></textarea>
+                <textarea type="text" placeholder="Awesome site, let's talk more."></textarea>
+                <Button>Contact Us</Button>
             </form>
         </section> 
     </Main>
 
-<footer>
-    <img src="First Project HTML/Assets/FES.svg" alt="FES Logo">
-    <div>
-       <a href="#About">About</a>
-       <a href="#Discord">Discord</a>
-       <a href="#Contact">Contact</a>
+<Footer>
+    <img class="footer_logo" src="First Project HTML/Assets/FES.svg" alt="FES Logo">
+    <div class="footer_links">
+       <a class="footer_links  href="#About">About</a>
+       <a class="footer_links  href="#Discord">Discord</a>
+       <a class="footer_links  href="#Contact">Contact</a>
     </div>
     <p>© 2025 Travis Cloke. All rights reserved.</p>
 </footer>
