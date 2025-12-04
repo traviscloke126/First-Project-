@@ -78,6 +78,13 @@ li {
 
 }  
 
+/*
+
+About  
+
+*/
+
+
 #about {
     padding: 48px 0;
 }
@@ -89,5 +96,27 @@ h2 {
 }
 
 .section_description {
-   display: flex;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_img--wrapper {
+   width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.section_description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section_description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px
+}
